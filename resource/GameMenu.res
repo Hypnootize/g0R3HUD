@@ -34,6 +34,11 @@
 		"label" 		"Items"
 		"command" 		"engine open_charinfo"
 	}
+	"GeneralStoreButton"
+	{
+		"label"			"Store"
+		"command"		"engine open_store"
+	}
 	"QuitButton"
 	{
 		"label" 		"Quit"

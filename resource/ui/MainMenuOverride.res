@@ -352,48 +352,6 @@
 		}
 	}
 
-	"CharacterSetupButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"CharacterSetupButton"
-		"xpos"			"c-50"
-		"ypos"			"c-20"
-		"zpos"			"11"
-		"wide"			"100"
-		"tall"			"20"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"100"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"use_proportional_insets" "1"
-			"font"			"HandelGothicBT15" 
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/menusounds.wav"
-			"sound_released"	"UI/menusounds.wav"
-			"sound_armed"		"UI/menusounds.wav"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override"	"178 82 22 255"
-			"armedFgColor_override"	"255 255 255 255"
-			"depressedFgColor_override"	"255 255 255 255"
-		}
-	}
-	
 	"TF2SettingsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -520,12 +478,54 @@
 		}
 	}
 	
+	"GeneralStoreButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"GeneralStoreButton"
+		"xpos"			"c-50"
+		"ypos"			"c40"
+		"zpos"			"11"
+		"wide"			"100"
+		"tall"			"20"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"100"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"HandelGothicBT15" 
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/menusounds.wav"
+			"sound_released"	"UI/menusounds.wav"
+			"sound_armed"		"UI/menusounds.wav"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override"	"178 82 22 255"
+			"armedFgColor_override"	"255 255 255 255"
+			"depressedFgColor_override"	"255 255 255 255"
+		}
+	}
+	
 	"QuitButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButton"
 		"xpos"			"c-50"
-		"ypos"			"c40"
+		"ypos"			"c60"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"20"
@@ -567,7 +567,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButton"
 		"xpos"			"c-50"
-		"ypos"			"c40"
+		"ypos"			"c60"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"20"
@@ -609,7 +609,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"c14"
-		"ypos"			"c60"
+		"ypos"			"c80"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -666,7 +666,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"c-32"
-		"ypos"			"c60"
+		"ypos"			"c80"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -723,7 +723,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DemoUIButton"
 		"xpos"			"c5"
-		"ypos"			"c80"
+		"ypos"			"c100"
 		"zpos"			"11"
 		"wide"			"70"
 		"tall"			"12"
@@ -765,7 +765,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"NetGraphButton"
 		"xpos"			"c5"
-		"ypos"			"c95"
+		"ypos"			"c115"
 		"zpos"			"11"
 		"wide"			"70"
 		"tall"			"12"
@@ -807,7 +807,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
 		"xpos"			"c-75"
-		"ypos"			"c80"
+		"ypos"			"c100"
 		"zpos"			"11"
 		"wide"			"70"
 		"tall"			"12"
@@ -849,7 +849,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"Showfpsbutton"
 		"xpos"			"c-75"
-		"ypos"			"c95"
+		"ypos"			"c115"
 		"zpos"			"11"
 		"wide"			"70"
 		"tall"			"12"
@@ -1150,24 +1150,6 @@
 				"keyboardinputenabled" "0"
 			}		
 		}
-	}
-
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
 	}
 
 	"QuestLogButton"
