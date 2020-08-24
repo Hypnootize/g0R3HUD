@@ -166,3 +166,17 @@ event ActiveTimerDim
 {
 	Animate TimePanelValue 							FgColor		"255 255 255 255"				Linear 	0.0 0.4
 }
+
+//============================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
+
+//===========================================
