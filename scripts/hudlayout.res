@@ -1168,17 +1168,17 @@ HudTrainingMsg
 "wide" "200"
 "tall" "0"
 }
-"CHudVote" 
+"CHudVote"
 {
 "fieldName" "CHudVote"
-"xpos" "0"
+"xpos" "0"			
 "ypos" "0"
-"wide" "250"
-"tall" "250"
+"wide" "640"
+"tall" "480"
 "visible" "1"
 "enabled" "1"
-"bgcolor_override" "0 0 0 200"
-"PaintBackgroundType"	"0" // rounded corners
+"bgcolor_override" "0 0 0 0"
+"PaintBackgroundType" "0"
 }
 "HudAlert" 
 {
